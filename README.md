@@ -59,4 +59,4 @@ git clone git clone https://github.com/Nicholas2023/printf.git
 ```
 After cloning the repository you will have a folder called printf. In here there will be several files that allow the function to work.
 
-`Submitted by` `chebet Bii` `and` `Odhiambo Nicholas`
+`Submitted by` `chebet Bii` `and` `Odhiambo Nicholas Otieno`
