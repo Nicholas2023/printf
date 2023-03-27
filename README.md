@@ -23,6 +23,7 @@ The format string is a character string starting and ending with double quotes. 
 Each conversion specification is introduced by the character `%` and ends with a conversion specifier. In between there may be (in this order):
 
 ## Zero or more flags
+
 |Flag	|Description
 |`#`	|For `o` conversions the first character of the output string is made zero (by prefixing a `0` if it was not zero already). For `x` and `X` conversions, a nonzero result has the string "0x" or "0X" respectively added.
 |`0`	|(Not implemented yet) The value should be zero padded. For `d`, `i`, `o`, `u`, `x`, and `X` the converted value is padded on the left with zeros. If the `0` and - flags both appear, the 0 flag is ignored. If a precision is given with a numeric conversion, the 0 flag is ignored.
@@ -54,7 +55,7 @@ An optional precision, in the form of a period (.) followed by an optional decim
 You will need to clone the repository of the project from Github. This will contain the `_printf` function and all of its dependencies. No main.c file will be provided for testing, so you will need to create one.
 
 ```
-git clone https://github.com/ehoneahobed/printf.git
+git clone git clone https://github.com/Nicholas2023/printf.git
 ```
 After cloning the repository you will have a folder called printf. In here there will be several files that allow the function to work.
 
